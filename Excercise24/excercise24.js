@@ -1,13 +1,7 @@
-// Conditional Test: 
-
-// Test 1 If Statement
-
-var bike = ["bmw", "yahamaha", "suzuki"]
-
-console.log(bike.includes("bmw"))
+// More Conditional Test: 
 
 
-//Test 2 Inequality
+//Tests for equality and inequality with strings
 
 var reqVar= "Apple"
 if(reqVar == "Apple"){
@@ -16,7 +10,33 @@ if(reqVar == "Apple"){
    false
 }
 
-// Test 3Numerical Comparisons
+var reqVar= "Appsle"
+if(reqVar == "Apple"){
+   console.log( true)
+}else{
+   console.log(false)
+}
+
+//• Tests using the lower case function
+
+var fruit = "apple"
+
+if(fruit == fruit.toLowerCase()){
+   console.log(true)
+}else{
+   console.log(false)
+}
+
+var fruit1 = "Apple"
+
+if(fruit1 == fruit1.toLowerCase()){
+   console.log(true)
+}else{
+   console.log(false)
+}
+
+
+// Numerical Test
 
 var value = 18
 
@@ -26,51 +46,13 @@ if( value  == 18){
    false
 }
 
-//Test 4 Checking Multiple Conditions
+
 
 if(value => 18 || value <=18){
    console.log( true)
 }else{
    false
 }
-
-//Test 5 Checking PSwitch Case
-
-var age = 20
-
-switch (true) {
-   case (age > 30):
-      console.log(false)
-      
-      break;
-   case (age < 30):
-      console.log(true)
-      
-      break;
-
-   default:
-      break;
-}
-
-///False Test///
- console.log("\n False Tests")
-// Test 1 If Statement
-
-var bike = ["bmw", "yahamaha", "suzuki"]
-
-console.log(bike.includes("bsmssw"))
-
-
-//Test 2 Inequality
-
-var reqVar= "Appsle"
-if(reqVar == "Apple"){
-   console.log( true)
-}else{
-   console.log(false)
-}
-
-// Test 3Numerical Comparisons
 
 var value = "18"
 
@@ -80,7 +62,7 @@ if( value  === 18){
  console.log(false)  
 }
 
-//Test 4 Checking Multiple Conditions
+
 var value1=20
 if(value1 >= 18 && value1 <=18){
    console.log( true)
@@ -88,20 +70,22 @@ if(value1 >= 18 && value1 <=18){
   console.log(false) 
 }
 
-//Test 5 Checking PSwitch Case
-
-var age = 100
-
-switch (true) {
-   case (age > 30):
-      console.log(false)
-      
-      break;
-   case (age < 30):
-      console.log(true)
-      
-      break;
-
-   default:
-      break;
+if(value1 >= 2 || value1 <=3){
+   console.log( true)
+}else{
+  console.log(false) 
 }
+
+// Test whether an item is in a array
+
+var bike = ["bmw", "yahamaha", "suzuki"]
+
+console.log(bike.includes("bmw"))
+
+ 
+
+var bike = ["bmw", "yahamaha", "suzuki"]
+
+console.log(bike.includes("bsmssw"))
+
+

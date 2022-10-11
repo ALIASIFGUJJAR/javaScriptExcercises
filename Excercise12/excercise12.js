@@ -1,4 +1,4 @@
-// Calling array Element
+// Calling array Element with message
 
 const array1= ["Ali","Asif","Shan"]
 

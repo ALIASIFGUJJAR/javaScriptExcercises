@@ -1,10 +1,9 @@
 //Print the list of array
 
-const invitedPeople=["Uneeb","Ibrahim","Arshad","Raja","Shahzaib"]
+const invitedPeople = ["Uneeb", "Ibrahim", "Arshad", "Raja", "Shahzaib"];
 
 const arrayLength = invitedPeople.length;
 
-for (let i = 0 ; i< arrayLength; i++){
-
-    console.log("Please join us at dinnetr Dear : "+ invitedPeople[i])
+for (let i = 0; i < arrayLength; i++) {
+  console.log("Please join us at dinnetr Dear : " + invitedPeople[i]);
 }

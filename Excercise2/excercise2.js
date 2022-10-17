@@ -1,4 +1,4 @@
-const myName= `Hello Eric, would you like
-to learn some python today`
+const myName = `Hello Eric, would you like
+to learn some python today`;
 
-console.log(myName)
+console.log(myName);

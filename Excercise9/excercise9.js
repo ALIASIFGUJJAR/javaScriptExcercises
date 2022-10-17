@@ -1,3 +1,3 @@
-var favNum= 56
+var favNum = 56;
 
-console.log("My Favourite ni is: "+ favNum)
+console.log("My Favourite ni is: " + favNum);

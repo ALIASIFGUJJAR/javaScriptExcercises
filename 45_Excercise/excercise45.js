@@ -11,11 +11,7 @@ var make_Car = (manufacturer, model, ...others) => {
       });
     }
   });
-  Object.keys(carObject).forEach((key) => {
-    if (carObject[key] === undefined) {
-      delete albumObject[key];
-    }
-  });
+
   console.log(carObject);
 };
 

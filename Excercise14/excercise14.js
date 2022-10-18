@@ -1,4 +1,4 @@
-//Print the list of array
+//Guest List
 
 const invitedPeople = ["Uneeb", "Ibrahim", "Arshad", "Raja", "Shahzaib"];
 

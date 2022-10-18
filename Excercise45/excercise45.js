@@ -5,7 +5,11 @@ var make_Car = (manufacturer, model, ...others) => {
     model,
   };
   others.forEach((elem) => {
-    carObject[Object.keys(elem)[0]] = Object.values(elem)[0];
+    if (elem instanceof Object) {
+      Object.keys(elem).forEach((el) => {
+        carObject[el] = elem[el];
+      });
+    }
   });
   Object.keys(carObject).forEach((key) => {
     if (carObject[key] === undefined) {
@@ -15,4 +19,6 @@ var make_Car = (manufacturer, model, ...others) => {
   console.log(carObject);
 };
 
-make_Car("toyota", "vitz", { color: "black" }, { year: "1994 " });
+make_Car("toyota", "vitz", { color: "black", year: "1994 " });
+
+make_Car("honda", "accord", { color: "white", year: "2001" });
